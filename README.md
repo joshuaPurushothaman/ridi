@@ -12,3 +12,5 @@ There are DAWs - but I don't need one, and don't know off the top of my head as 
 **Yes, this is completely just an excuse to use Rust to do something fun 🦀🦀🦀**
 
 oooh, it's like we're crab raving!
+
+A sample of a [Salamander Grand Piano V3](https://github.com/sfzinstruments/SalamanderGrandPiano) .sfz file is included. 

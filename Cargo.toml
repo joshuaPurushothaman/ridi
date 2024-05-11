@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 midir = "0.10.0"
+sofiza = "0.3.1"

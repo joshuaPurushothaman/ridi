@@ -3,29 +3,6 @@ use std::io::{stdin, stdout, Write};
 
 use midir::{Ignore, MidiInput};
 
-    
-
-use std::path::Path;
-
-use sofiza::Instrument;
-
-fn main() {
-    let filepath = Path::new("instruments/Nylon Guitar.sfz");
-
-    let i = Instrument::from_file(filepath).expect(
-        "Couldn't parse the instrument. \
-        Please run the example from the examples/ directory",
-    );
-
-    // for region in &i.regions {
-    //     println!("{:?}", region);
-    // }
-
-    println!("{:#?}", i);
-
-    println!("groups: {}\nregions: {}", i.groups(), i.regions());
-}
-
 fn main() {
     match run() {
         Ok(_) => (),

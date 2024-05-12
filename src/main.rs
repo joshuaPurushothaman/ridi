@@ -13,7 +13,29 @@ fn main() {
     //     println!("{:?}", group.opcodes.);
     // }
 
+    // <region> sample=samples/C4v1.flac lokey=59 hikey=61 lovel=1 hivel=26 tune=-6
+    // <region> sample=samples/C4v2.flac lokey=59 hikey=61 lovel=27 hivel=34 tune=-6
+    // <region> sample=samples/C4v3.flac lokey=59 hikey=61 lovel=35 hivel=36 tune=-6
+    // <region> sample=samples/C4v4.flac lokey=59 hikey=61 lovel=37 hivel=43 tune=-6
+    // <region> sample=samples/C4v5.flac lokey=59 hikey=61 lovel=44 hivel=46 tune=-6
+    // <region> sample=samples/C4v6.flac lokey=59 hikey=61 lovel=47 hivel=50 tune=-6
+    // <region> sample=samples/C4v7.flac lokey=59 hikey=61 lovel=51 hivel=56 tune=-6
+    // <region> sample=samples/C4v8.flac lokey=59 hikey=61 lovel=57 hivel=64 tune=-6
+    // <region> sample=samples/C4v9.flac lokey=59 hikey=61 lovel=65 hivel=72 tune=-6
+    // <region> sample=samples/C4v10.flac lokey=59 hikey=61 lovel=73 hivel=80 tune=-6
+    // <region> sample=samples/C4v11.flac lokey=59 hikey=61 lovel=81 hivel=88 tune=-6
+    // <region> sample=samples/C4v12.flac lokey=59 hikey=61 lovel=89 hivel=96 tune=-6
+    // <region> sample=samples/C4v13.flac lokey=59 hikey=61 lovel=97 hivel=104 tune=-6
+    // <region> sample=samples/C4v14.flac lokey=59 hikey=61 lovel=105 hivel=112 tune=-6
+    // <region> sample=samples/C4v15.flac lokey=59 hikey=61 lovel=113 hivel=120 tune=-6
+    // <region> sample=samples/C4v16.flac lokey=59 hikey=61 lovel=121 tune=-6
+
     // Store a sorted map of MIDI Note #s to file paths
+    struct Note {
+        key: u8,
+        vel: u8,
+    }
+
     let mut note_map = BTreeMap::new();
 
     for region in &instrument.regions {

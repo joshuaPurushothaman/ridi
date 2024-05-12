@@ -13,4 +13,4 @@ There are DAWs - but I don't need one, and don't know off the top of my head as 
 
 oooh, it's like we're crab raving!
 
-A sample of a [Salamander Grand Piano V3](https://github.com/sfzinstruments/SalamanderGrandPiano) .sfz file is included. 
+Feel free to try it against something like a [Salamander Grand Piano V3](https://github.com/sfzinstruments/SalamanderGrandPiano)!
